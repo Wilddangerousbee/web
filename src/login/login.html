@@ -1,0 +1,18 @@
+<div class="block-login">
+    <p><a class="kit" href="https://qoollo.com/index.html"><img src="https://cdn.discordapp.com/attachments/853246846854758400/863833217869545492/whale_shadowed-c40a0be6e1718a547d236d1ed9ea0de600183dbd3a7ac8cafda7a2422aaedd41.png" 
+        width=80% height=32% alt="lorem"></a></p>
+    <a href="#" class="kit"></a>
+    <br>
+    <input class="login" [(ngModel)] = "login" placeholder="login">
+    <div class="login" [hidden] = "flLogin">
+            Не удалось найти аккаунт c таким логином
+    </div>
+    <br>
+    <input class="password" type= {{typePasswordFild}} [(ngModel)] = "password" placeholder="password">
+    <a href="#" class={{textButtomShowPassword}} (click) = "showPassword()"></a>
+    <div class="password" [hidden] = "flPassword">
+        Неверный пароль. Повторите попытку.
+    </div>
+    <br>
+    <button class="enter" (click) = "enter()">Войти</button>
+</div>

@@ -1,0 +1,18 @@
+<body>
+
+   <div class="user-card">
+        <a>Введите площадь крыши</a>
+        <input class="password" [(ngModel)] = "Sqiare">
+        <td>
+        <button class="enter" (click) = "enter()">Сгенерировать идеальную комбинацию</button>
+    </div>
+
+    <div class="user-card"  *ngFor="let solatPanel of solatPanels">
+        <a title="solatPanel.Name" (click) = 'get(solatPanel)' [routerLink]="['/resume', solatPanel.id]">
+            <card-companent [name] = "solatPanel.Name"></card-companent>
+        </a>
+    </div>
+<footer>
+
+</footer>
+</body>

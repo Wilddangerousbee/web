@@ -1,0 +1,97 @@
+div.indent{
+    border: solid;
+    background: #c4c4c4;
+    width: 15%;
+}
+
+div.head{
+    border: solid;
+    background: #3D0D0D;
+    width: 70%;
+}
+
+menu{
+    display: flex;
+    margin: 0px auto 0 9px;
+    width: 90%;
+    height: 5%;
+}
+
+body{
+    margin: 0px auto;
+    height: 90%;
+    width: 90%;
+}
+
+div.user-card{
+    margin: 5% auto 0px 47px;
+    width: 90%;
+    height: 100px;
+    background:  #B0EDF4;
+    border: solid;
+    border-radius: 10px;
+}
+
+div.user-card > h1{
+    margin: 42px auto 0px 45%;
+    font-size: 11pt;
+}
+
+body{
+    margin: 0px auto;
+    width: 90%;
+}
+
+div.resume{
+    margin: 5% auto 0px 47px;
+    width: 90%;
+    height: 500px;
+    background:  #B0EDF4;
+    border: solid;
+    border-radius: 10px;
+}
+
+div.resume > h1{
+    margin: 15px auto 0 2%;
+    font-size: 14pt;
+}
+
+div.resume > h2{
+    margin: 15px auto 0 2%;
+    font-size: 14pt;
+}
+
+div.resume > textarea{
+    margin: 15px auto 0 2%;
+    width: 95%;
+    height: 300px;
+    white-space: pre-line;
+    font-size: 14pt;
+}
+
+div.resume > h1 > p{
+    margin: -25px auto 0 95%;
+}
+
+div.button{
+    width: 95%;
+    display: flex;
+    margin: 7px auto 0 2%;
+}
+
+div.button > button{
+    color: honeydew;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+div.button > button.cancellation{
+    margin: 76px auto 0 5%;
+    background: red;
+}
+
+div.button > button.save{
+    margin: 76px auto 0 55%;
+    background: green;
+}
