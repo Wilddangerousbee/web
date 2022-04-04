@@ -1,5 +1,3 @@
-<a href="https://ru.stackoverflow.com/questions/449679/Случайно-форкнул-проект-в-github-как-теперь-его-удалить">Привет</a>
-
 # Moscow Houses Map    
      
 ### Цель работы
